@@ -10,7 +10,7 @@ This repository contains the live implementation of a brand alignment system dev
 
 The goal of this project is to address the core challenges of a global B2B supplier: **reducing visual variation** and **improving communication consistency** across digital and physical touchpoints without the need for a full website restructure.
 
-### [Live Demo Link](https://your-github-username.github.io/spire-brand-system-proposal/)
+### [Live Demo Link](https://spire-brand-system-proposal.vercel.app/)
 
 ---
 
