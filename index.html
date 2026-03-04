@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lance M. | Spire Tea Brand Proposal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --forest: #2F4F46;
+            --charcoal: #1E1E1E;
+            --cream: #F9F8F4;
+            --gray: #E5E5E5;
+            --copper: #B87333;
+            --max-width-text: 680px;
+            --max-width-grid: 1100px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: var(--cream); color: var(--charcoal); font-family: 'Inter', sans-serif; line-height: 1.5; }
+
+        /* Typography */
+        h1, h2, h3 { font-family: 'Libre Baskerville', serif; font-weight: 400; line-height: 1.3; }
+        h1 { font-size: 48px; margin-bottom: 24px; color: var(--forest); }
+        h2 { font-size: 32px; margin-bottom: 20px; border-bottom: 1px solid var(--gray); padding-bottom: 10px; }
+        h3 { font-size: 22px; margin-bottom: 12px; }
+        p { font-size: 16px; max-width: var(--max-width-text); margin-bottom: 1.5rem; }
+        .caption { font-size: 13px; color: #666; }
+
+        /* Layout */
+        .container { max-width: var(--max-width-grid); margin: 0 auto; padding: 0 5%; }
+        section { padding: 100px 0; border-bottom: 1px solid var(--gray); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 60px; }
+
+        /* Hero */
+        .hero { height: 80vh; display: flex; flex-direction: column; justify-content: center; background: #fff; border-bottom: 4px solid var(--forest); }
+
+        /* Buttons */
+        .btn { display: inline-block; padding: 14px 30px; text-decoration: none; font-weight: 600; font-size: 13px; letter-spacing: 1px; transition: 0.2s ease-in-out; border-radius: 2px; text-transform: uppercase; }
+        .btn-primary { background: var(--copper); color: white; border: 1px solid var(--copper); }
+        .btn-secondary { background: transparent; color: var(--charcoal); border: 1px solid var(--charcoal); }
+        .btn-primary:hover { background: var(--charcoal); border-color: var(--charcoal); }
+
+        /* Components */
+        .swatch { height: 80px; width: 100%; border: 1px solid rgba(0,0,0,0.05); margin-bottom: 10px; }
+        .sig-preview { background: #fff; border: 1px dashed var(--gray); padding: 25px; font-family: 'Inter', sans-serif; }
+        .spec-sheet { background: #fff; border: 1px solid var(--gray); padding: 40px; }
+        .do-not { color: #b33939; font-size: 13px; list-style: none; }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <p class="caption" style="text-transform: uppercase; letter-spacing: 3px; margin-bottom: 10px;">Portfolio Proposal</p>
+            <h1>Brand System & <br>Web Alignment Proposal</h1>
+            <p style="font-size: 18px;">Developed in direct response to the Project-Based Brand & Identity scope. Focused on visual consistency, controlled application, and practical internal usability.</p>
+            <div style="margin-top: 32px; display: flex; gap: 15px;">
+                <a href="#identity" class="btn btn-primary">View Identity System</a>
+                <a href="#" class="btn btn-secondary">Download Brand Overview (PDF)</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="scope">
+            <h2>Project Scope Response</h2>
+            <div class="grid">
+                <div>
+                    <p>This proposal addresses the defined requirements for the Spire Tea Head Office project. All examples are structured for immediate implementation.</p>
+                </div>
+                <div>
+                    <ul style="font-size: 14px; line-height: 2;">
+                        <li><strong>✓ Visual Identity System</strong> (Logo, Color, Type)</li>
+                        <li><strong>✓ Website Brand Alignment</strong> (No Redesign)</li>
+                        <li><strong>✓ Email & Correspondence System</strong></li>
+                        <li><strong>✓ External Document Templates</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="identity">
+            <h2>Visual Identity System</h2>
+            
+            <div class="grid">
+                <div>
+                    <h3>Logo Usage</h3>
+                    <p class="caption">Primary: Wordmark Format | Secondary: Horizontal Compact</p>
+                    <div style="background: #eee; height: 100px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">[Logo Placeholder]</div>
+                    <ul class="do-not">
+                        <li>✕ No distortion / No gradients</li>
+                        <li>✕ No drop shadows / No low-contrast</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Color Palette</h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <div><div class="swatch" style="background: var(--forest);"></div><p class="caption">Forest #2F4F46</p></div>
+                        <div><div class="swatch" style="background: var(--charcoal);"></div><p class="caption">Charcoal #1E1E1E</p></div>
+                        <div><div class="swatch" style="background: var(--cream);"></div><p class="caption">Cream #F9F8F4</p></div>
+                        <div><div class="swatch" style="background: var(--copper);"></div><p class="caption">Copper #B87333</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid" style="margin-top: 60px;">
+                <div>
+                    <h3>Typography System</h3>
+                    <h1 style="font-size: 48px; margin: 0;">Libre Baskerville</h1>
+                    <p style="font-family: 'Inter'; font-weight: 400; font-size: 16px;">Inter Sans-Serif Body (150% Line Height)</p>
+                </div>
+                <div>
+                    <p class="caption">Baseline: 8px Grid | Max Text Width: 680px</p>
+                    <p>Defined scaling ensures predictable hierarchy and prevents visual fragmentation across departments.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="web">
+            <h2>Website Brand Alignment</h2>
+            <p><strong>Goal:</strong> Align look and feel without restructuring content.</p>
+            <div class="grid">
+                <div class="spec-sheet">
+                    <h4 style="margin-bottom: 15px; font-weight: 600;">Button Interface</h4>
+                    <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+                        <button class="btn btn-primary">Primary CTA</button>
+                        <button class="btn btn-secondary">Secondary</button>
+                    </div>
+                    <p class="caption">Radius: 2px | Padding: 14px 30px</p>
+                </div>
+                <div>
+                    <h3>Content Adjustments</h3>
+                    <ul style="font-size: 14px; line-height: 2;">
+                        <li>• Max layout width: 1100px</li>
+                        <li>• Images: Neutral tone / Consistent crop</li>
+                        <li>• Footer: Single background color, structured block</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="email">
+            <h2>Email Signature & Templates</h2>
+            <div class="grid">
+                <div class="sig-preview">
+                    <p style="color: var(--copper); font-weight: 700; margin: 0;">Lance M.</p>
+                    <p style="font-size: 13px; margin: 0;">Brand Systems & Web Alignment</p>
+                    <p style="font-size: 13px; margin: 0;"><strong>Spire Tea Inc.</strong> | 130 Queens Quay East, Toronto</p>
+                    <hr style="margin: 10px 0; border: 0; border-top: 1px solid var(--gray);">
+                    <p class="caption">Quality. Transparency. Responsible Sourcing.</p>
+                </div>
+                <div>
+                    <h3>Template Guidelines</h3>
+                    <p>Subject lines must be direct. Signature uses web-safe fonts only to ensure cross-platform compatibility without broken images.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="product">
+            <h2>Product Information Sheet</h2>
+            <div class="spec-sheet">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid var(--forest); padding-bottom: 20px; margin-bottom: 20px;">
+                    <div>
+                        <h3 style="margin: 0;">Assam Black Tea — Grade OP</h3>
+                        <p class="caption">Origin: Assam, India | Processing: Orthodox</p>
+                    </div>
+                    <div style="text-align: right;">
+                        <p class="caption">Certifications: Organic, RA, Fair Trade</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div>
+                        <p><strong>Specifications:</strong><br>
+                        Moisture Content < 7%<br>
+                        Leaf Grade: Orange Pekoe<br>
+                        Packaging: 25kg multi-wall kraft bags</p>
+                    </div>
+                    <div>
+                        <p><strong>Traceability:</strong><br>
+                        Batch Code: AST-OP-2026-01<br>
+                        Facility: Spire Tea Head Office</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" style="border: none;">
+            <h2>Implementation Process</h2>
+            <div style="display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 150px;"><h3 style="color: var(--copper);">01</h3><p class="caption">Audit Material</p></div>
+                <div style="flex: 1; min-width: 150px;"><h3 style="color: var(--copper);">02</h3><p class="caption">Define Rules</p></div>
+                <div style="flex: 1; min-width: 150px;"><h3 style="color: var(--copper);">03</h3><p class="caption">Apply Channels</p></div>
+                <div style="flex: 1; min-width: 150px;"><h3 style="color: var(--copper);">04</h3><p class="caption">Build Templates</p></div>
+                <div style="flex: 1; min-width: 150px;"><h3 style="color: var(--copper);">05</h3><p class="caption">Deliver Guide</p></div>
+            </div>
+        </section>
+    </div>
+
+    <footer style="background: var(--charcoal); color: white; padding: 60px 0; text-align: center;">
+        <p class="caption" style="color: #aaa;">Lance M. | 130 Queens Quay East, Toronto | lance.job.roles@gmail.com</p>
+    </footer>
+
+</body>
+</html>
